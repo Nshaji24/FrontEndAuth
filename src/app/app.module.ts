@@ -15,6 +15,10 @@ import { BoardUserComponent } from './board-user/board-user.component';
 import { authInterceptorProviders } from '../_helpers/auth.interceptor';
 import { GroupsComponent } from './groups/groups.component';
 import { LeaderboardComponent } from './leaderboard/leaderboard.component';
+import { AddCatchComponent } from './components/add-catch/add-catch.component';
+import { CatchDetailsComponent } from './components/catch-details/catch-details.component';
+import { CatchListComponent } from './components/catch-list/catch-list.component';
+
 
 @NgModule({
   declarations: [
@@ -28,6 +32,10 @@ import { LeaderboardComponent } from './leaderboard/leaderboard.component';
     BoardUserComponent,
     GroupsComponent,
     LeaderboardComponent,
+    AddCatchComponent,
+    CatchDetailsComponent,
+    CatchListComponent,
+ 
   ],
   imports: [
     BrowserModule,
